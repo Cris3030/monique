@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/touchTouch.css">
+    
+	<script src="js/jquery.js"></script>
+    <script  src="js/touchTouch.jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/jquery.animate-colors-min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    
+    <script>
+        $(window).load(function() {	 
+            
+           // Initialize the gallery
+            $('.thumb').touchTouch();
+            
+           //btn-link hover
+           $('.color1').hover(function(){
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "100%"}, 450, "easeOutExpo")	
+        		$(this).stop().animate({ 'color': "#f26522"}, 150, "easeOutExpo")				 
+        	}, function(){	
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "0"}, 450, "easeOutExpo")		
+        		$(this).stop().animate({ 'color': "#FFFFFF"}, 350, "easeOutExpo")			 
+        	})  
+           $('.color2').hover(function(){
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "100%"}, 450, "easeOutExpo")		
+        		$(this).stop().animate({ 'color': "#f222b2"}, 150, "easeOutExpo")				 
+        	}, function(){	
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "0"}, 450, "easeOutExpo")	
+        		$(this).stop().animate({ 'color': "#FFFFFF"}, 350, "easeOutExpo")			 
+        	})  
+           $('.color3').hover(function(){
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "100%"}, 450, "easeOutExpo")		
+        		$(this).stop().animate({ 'color': "#f2b422"}, 150, "easeOutExpo")				 
+        	}, function(){	
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "0"}, 450, "easeOutExpo")	
+        		$(this).stop().animate({ 'color': "#FFFFFF"}, 350, "easeOutExpo")			 
+        	})  
+           $('.color4').hover(function(){
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "100%"}, 450, "easeOutExpo")		
+        		$(this).stop().animate({ 'color': "#5e22f2"}, 150, "easeOutExpo")				 
+        	}, function(){	
+        		$(this).parent().parent().parent().find('figure span').stop().animate({ 'top': "0"}, 450, "easeOutExpo")	
+        		$(this).stop().animate({ 'color': "#FFFFFF"}, 350, "easeOutExpo")			 
+        	})  
+            	
+        });
+    </script>
+    
+    <!--[if lt IE 9]>
+    <div style='text-align:center'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>  
+    <script src="assets/assets/js/html5shiv.js"></script> 
+    <script src="assets/assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="bg1">
+<!--==============================header=================================-->
+<header id="header">
+    <div class="width_1">
+          <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="Monique" src="img/logo.png"></a></h1>
+          <div class="menuheader">
+            <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
+                <ul class="nav sf-menu">
+                  <li class="active"><a href="index.html">main page</a></li>
+                  <li><a href="index-1.html">about us</a>
+                    <ul>
+                      <li><img src="img/arrowup.png" alt=""><a href="#">history</a></li>
+                      <li><a href="#">staff</a></li>
+                      <li><a class="last" href="#">news</a>
+                        <ul>
+                           <li><a href="#">fresh</a></li>
+                           <li><a class="last" href="#">archive</a></li>                       
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="index-2.html">rooms</a></li>
+                  <li><a href="index-3.html">latest news</a></li>
+                  <li><a href="index-4.html">contacts</a></li>
+                </ul>
+            </nav>
+          </div>
+    </div>
+</header>
+<!--==============================content=================================-->
+<div id="content">
+    <!--==============================row_1=================================-->
+    <div class="row_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                   <ul class="list1">
+                        <li><figure><a href="img/page1_bigimg1.jpg" class="thumb"><img src="img/page1_img1.jpg" alt=""><span></span><strong></strong></a></figure></li>
+                        <li><figure><a href="img/page1_bigimg2.jpg" class="thumb"><img src="img/page1_img2.jpg" alt=""><span></span><strong></strong></a></figure></li>
+                        <li><figure><a href="img/page1_bigimg3.jpg" class="thumb"><img src="img/page1_img3.jpg" alt=""><span></span><strong></strong></a></figure></li>
+                        <li><figure><a href="img/page1_bigimg4.jpg" class="thumb"><img src="img/page1_img4.jpg" alt=""><span></span><strong></strong></a></figure></li>
+                   </ul> 
+                   <p class="title1"><span class="title1left"></span>Welcome to Our Hotel!<span class="title1right"></span></p>
+                   <p class="title2">Beciegast nveriti vitaesaert asety kertya aset aplica binerafae kertyu estyasnemo faserani<br>
+ptaiades kertyaser daesraeds. Casrolern atur aut oditaut. Binseqseuntur magni dolqui ratione vosequi nesciuderyas<br>
+ orbosas numquam eius modi teincidunt, ut labore et dolore magnam.</p>
+                    <a href="#" class="btn btn-primary btn-lg btn1">more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================row_2=================================-->
+    <div class="row_2">
+        <div class="container">
+            <div class="row">
+                <ul class="list2">
+                    <li class="col-lg-3 col-md-3 col-sm-3 collist2">
+                        <figure class="img-circle"><span></span><img src="img/page1_img5.jpg" class="img-responsive img-circle" alt=""></figure>
+                        <div class="infotext1 maxheight">
+                            <h4>philosophy</h4>
+                            <div class="line1"></div>
+                            <p>Beciegast nveriti vitaessetyertyaiaset aplicabrde ertyas niptagiades. Colernatur aut oditaut. Onsuntuagnie aplicabrde ertyas niptagiades dolores eo qui ratione uptate msequs nesciunt, neque porouisquamuiolorem ipsum quia dolor.</p>
+                            <a href="#" class="btn-link btn-link1 color1">more</a>
+                        </div>
+                    </li> 
+                    <li class="col-lg-3 col-md-3 col-sm-3 collist2">
+                        <figure class="img-circle"><span></span><img src="img/page1_img6.jpg" class="img-responsive img-circle" alt=""></figure>
+                        <div class="infotext1 maxheight">
+                            <h4>luxury style</h4>
+                            <div class="line2"></div>
+                            <p>Onsuntur magni dolores eo quatione uptate msequi nesciunt, neque porrosisquam estqui dolorem ipsumia dolor.Daitamet, consectetur, adipisci velitesed quia non numquam.</p>
+                            <a href="#" class="btn-link btn-link1 color2">more</a>
+                        </div>
+                    </li> 
+                    <li class="col-lg-3 col-md-3 col-sm-3 collist2">
+                        <figure class="img-circle"><span></span><img src="img/page1_img7.jpg" class="img-responsive img-circle" alt=""></figure>
+                        <div class="infotext1 maxheight">
+                            <h4>perfect menu</h4>
+                            <div class="line3"></div>
+                            <p>Citaesaert asetyertya aset aplicrde ertyasnemniptaiades. volernatur auter oditaut. Onsuntur magni dolores saui ratione uptate msequi nesciunt, neque porrouisquam estqui dolorem ipsum, quia dolorer ntreterase.</p>
+                            <a href="#" class="btn-link btn-link1 color3">more</a>
+                        </div>
+                    </li> 
+                    <li class="col-lg-3 col-md-3 col-sm-3 collist2">
+                        <figure class="img-circle"><span></span><img src="img/page1_img8.jpg" class="img-responsive img-circle" alt=""></figure>
+                        <div class="infotext1 maxheight">
+                            <h4>our rooms</h4>
+                            <div class="line4"></div>
+                            <p>Beciegast nveriti vitaessetyertya iaset aplicabrde ertyas niptagiades. Colernatur aplicabrde ertyas niptagiades aut oditaut. Onntuagnie dolores eo qui ratione uptate mseus nesciunt, neque porouisquamui olorem ipsum quia dolor.</p>
+                            <a href="#" class="btn-link btn-link1 color4">more</a>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================row_3=================================-->
+    <div class="row_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 row3col">
+                    <h4 class="useful_info">useful info</h4>                     
+                    <ul class="list3">
+                        <li>
+                           <a href="#">Hotel Restaurants</a>
+                        </li>
+                        <li>
+                           <a href="#">Weddings</a>
+                        </li>
+                        <li>
+                           <a href="#">Media & News</a>
+                        </li>
+                        <li>
+                           <a href="#">Health & Fitness</a>
+                        </li>
+                        <li>
+                           <a href="#">Photo Studio</a>
+                        </li>
+                        <li>
+                           <a href="#">Sitemap</a>
+                        </li>
+                        <li>
+                           <a href="#">Room Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 row3col1">
+                    <div class="box1 clearfix">
+                        <figure><img src="img/page1_img9.jpg" alt=""></figure>
+                        <div class="infotext2">
+                            <div class="circle1">-50%</div>
+                            <h2>Hotel Spa</h2>
+                            <p>Nertyase riti masertas lertyuhasety vitrasa kertya aset aplicabo nerafaeskes serat niptertayse.</p>
+                            <a href="#" class="btn-link btn-link2">more <span>&bull;</span></a>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="col-lg-offset-1 col-lg-4 col-md-4 col-sm-4 row3col2">   
+                  <ul class="list-info">
+                    <li>
+                     <div class="badge_ badgecolor1 badge"><p>15<br><strong>sept</strong></p></div>
+                        <div class="overflow">
+                            <p class="color5">Bdarasas olernatur ferrode</p>
+                            <p>nemo eniptaiades kuaasa niausyse hauysgasa lryatsrasa miuahs</p>
+                            <a href="#" class="btn-link btn-link4">read more <span>&bull;</span></a>  
+                        </div>
+                    </li>
+                    <li>
+                      <div class="badge_ badgecolor2 badge"><p>18<br><strong>sept</strong></div>
+                        <div class="overflow">
+                            <p class="color6">Ndtasader certasa miuatse</p>
+                            <p>nemo eniptaiades kuaasa niausyse hauysgasa lryatsrasa miuahs</p>
+                            <a href="#" class="btn-link btn-link4">read more <span>&bull;</span></a>  
+                        </div>
+                    </li>
+                    <li>
+                      <div class="badge_ badgecolor3 badge"><p>20<br><strong>sept</strong></div>
+                        <div class="overflow">
+                            <p class="color7">Derlpasya xertytsas leoays</p>
+                            <p>nemo eniptaiades kuaasa niausyse hauysgasa lryatsrasa miuahs</p>
+                            <a href="#" class="btn-link btn-link4">read more <span>&bull;</span></a>  
+                        </div>
+                    </li>
+                  </ul>  
+                  <a href="#" class="btn-link btn-link3 badges">more news <span>&bull;</span></a>                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==============================footer=================================-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-7 pull-right">
+                <a class="maillink1" href="#">info@demolink.org</a>
+                <div class="line6"></div>
+                <ul class="social_icons clearfix">
+                     <li><a href="#"><img src="img/follow_icon1.png" alt=""></a></li>
+                     <li><a href="#"><img src="img/follow_icon2.png" alt=""></a></li>
+                     <li><a href="#"><img src="img/follow_icon3.png" alt=""></a></li>
+                     <li><a href="#"><img src="img/follow_icon4.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-7 col-md-5 col-sm-5 pull-left">
+                <p class="footerpriv">Monique &copy; 2013 <img src="img/bulletfooter.jpg" alt=""> <a class="privacylink" href="index-5.html">Privacy policy</a><!-- {%FOOTER_LINK} --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
